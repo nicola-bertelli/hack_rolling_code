@@ -1,0 +1,6 @@
+dati_mqtt:
+  ip_mqtt_server: 192.168.1.11
+#
+dati_pin:
+  pin_rele_uno: 20
+  command_topic: "prova/cancellino/comando"
