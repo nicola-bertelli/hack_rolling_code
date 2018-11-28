@@ -7,7 +7,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 
 
-with open("/home/pi/cancello/config.yaml", 'r') as ymlfile:
+with open("~/cancello/config.yaml", 'r') as ymlfile:
     configurazione = yaml.load(ymlfile)
 
 ip_mqtt_server = configurazione['dati_mqtt']['ip_mqtt_server']
